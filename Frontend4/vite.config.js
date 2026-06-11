@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  root: 'D:/FULL-STACK-1/Frontend4',
+  root: '.',
   plugins: [react(), tailwindcss()],
   resolve: {
     preserveSymlinks: true,
